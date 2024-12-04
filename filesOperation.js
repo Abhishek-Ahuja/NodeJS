@@ -2,6 +2,7 @@
 const fs = require('fs');
 
 console.log("Started reading the file.");
+
 const buffer = fs.readFileSync("data.txt", {encoding: 'utf8'});
 
 console.log(buffer);
